@@ -1,0 +1,26 @@
+.feature {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #beb4b4;
+    border-style:outset;
+    border-radius: 6px;
+    margin:1rem;
+
+    flex: 1;
+}
+
+.feature-icon {
+    font-size: 4rem;
+    color: #46a349;
+}
+
+.feature-title {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.feature-description {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}

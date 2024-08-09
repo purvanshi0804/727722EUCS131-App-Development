@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.nav-item {
+    margin: 0 2rem;
+    cursor: pointer;
+  
+}
+
+.nav-item a {
+    color: white;
+    text-decoration:underline;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color:black;
+}
+
+.home {
+    padding-top: 4rem; /* Adjust for fixed navbar */
+}
+
+.home-section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.home-section h2 {
+    margin-bottom: 1rem;
+}

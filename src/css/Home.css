@@ -1,0 +1,85 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home-header {
+    text-align:center;
+    padding: 13rem 0;
+    /* background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4_2efmBwxGPzQAfD96gGwiqKQDrgtUbPfxUC01V-1LdlK5jjASRSFnd4Blw11') no-repeat center center; */
+    background: url('D:\agriapp\agriapp\src\img\DeWatermark.ai_1722503776464.png') no-repeat center center;
+    background-size: cover;
+    color: rgb(249, 244, 244);
+}
+
+.home-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.home-header p {
+    font-size: 1.25rem;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4e9e9;
+}
+/* src/css/Home.css */
+
+/* src/css/Home.css */
+
+.loan-containers {
+    padding: 45px;
+    background-color: #f9f9f9;
+
+}
+.topic{
+  margin-left: 200px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+.loan-container {
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer; /* Indicate that the element is clickable */
+}
+
+.loan-container img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust as needed */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.loan-container h5 {
+    margin-bottom: 10px;
+}
+
+.loan-container p {
+    color: #555;
+}
+
+.loan-link {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color from parent */
+    margin-bottom: 40px;
+}
+/* Add this to your Home.css if needed */
+/* Add this to your Home.css */
+.apply-button {
+    background-color: #4CAF50 !important;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+

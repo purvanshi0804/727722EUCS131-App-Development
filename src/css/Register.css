@@ -1,0 +1,86 @@
+.register-page {
+    font-family: 'Roboto', sans-serif;
+    background: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-page .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.register-page .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.register-page .form-group input,
+.register-page .form-group .MuiTextField-root {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.register-page .form-group input:focus,
+.register-page .form-group .MuiTextField-root:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.register-page .form-group a {
+    font-size: 14px;
+    color:#4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-page .form-group a:hover {
+    color:#4CAF50;
+}
+
+.register-page button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-page button:hover {
+    background: #f6d365;
+}
+
+.register-page .error {
+    margin-top: 10px;
+    color: #4CAF50;
+    font-size: 14px;
+}

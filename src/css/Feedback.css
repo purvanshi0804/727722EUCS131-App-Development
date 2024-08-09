@@ -1,0 +1,13 @@
+/* src/css/FeedbackForm.css */
+.feedback-form-container {
+    padding: 20px;
+}
+
+.feedback-form-paper {
+    padding: 20px;
+    text-align: center;
+}
+
+.feedback-form-title {
+    margin-bottom: 20px;
+}

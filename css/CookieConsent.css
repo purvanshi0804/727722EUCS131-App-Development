@@ -1,0 +1,38 @@
+/* src/components/CookieConsent.css */
+
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cookie-content {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cookie-buttons {
+    margin-top: 10px;
+}
+
+.cookie-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cookie-buttons button:hover {
+    background-color: #4CAF50;
+}

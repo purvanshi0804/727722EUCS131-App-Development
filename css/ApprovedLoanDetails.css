@@ -1,0 +1,34 @@
+.container {
+    padding: 20px;
+  }
+  
+  .loan-details-paper {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    th, td {
+      padding: 8px 10px;
+    }
+  }
+  
